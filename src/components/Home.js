@@ -11,7 +11,6 @@ class Home extends Component {
     return (
       <div className="home">
         <Nav />
-
         <div className="intro">
           <div className="header">We Provide Natural Clothes</div>
           <div className="text">Natural fabrics perfect for delicate skin</div>
