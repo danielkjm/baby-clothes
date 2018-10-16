@@ -11,4 +11,36 @@
 }
 
 .logo {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #444444;
+}
+
+/*--------------*/
+
+.intro {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro div {
+  margin: 20px;
+}
+.carousel {
+  height: 50%;
+  border: 1px rgb(189, 189, 189) solid;
+  color: rgb(189, 189, 189);
+}
+
+.started-button {
+  padding: 20px;
+  width: 222px;
+  color: white;
+  background-color: #444444;
+  border: 1px solid black;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-// import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import Nav from './Nav';
+import Home from './Home';
 
 class Main extends Component {
   constructor() {
@@ -10,9 +11,11 @@ class Main extends Component {
 
   render() {
     return (
-      <div>
-        <Nav />
-      </div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
+      </BrowserRouter>
     );
   }
 }
