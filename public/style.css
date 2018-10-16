@@ -29,8 +29,9 @@
 }
 
 .intro div {
-  margin: 20px;
+  margin: 10px;
 }
+
 .header {
   font-weight: bold;
   color: #3b3b3b;
@@ -42,17 +43,34 @@
   font-size: 12px;
 }
 
-.carousel {
+.carousel-img {
   height: 180px;
   width: 350px;
   background-color: rgb(231, 231, 231);
-  /* border: 1px solid; */
   color: rgb(189, 189, 189);
+}
+.carousel-wrapper {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.carousel-control {
+  background-clip: content-box;
+  box-sizing: content-box;
+  border-bottom: none;
+  -webkit-box-sizing: content-box;
+  background-color: rgba(34, 34, 34, 0.3);
+  width: 30px;
+  height: 1px;
+  margin: 0 5px;
+  padding: 15px 0;
 }
 
 .started-button {
   padding: 20px;
-  margin: 0 auto 0 auto;
+  margin-top: 0;
   width: 230px;
   color: white;
   background-color: #444444;
