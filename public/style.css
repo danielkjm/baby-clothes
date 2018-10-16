@@ -20,26 +20,40 @@
 /*--------------*/
 
 .intro {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 500px;
   font-family: 'Montserrat', sans-serif;
 }
 
 .intro div {
   margin: 20px;
 }
+.header {
+  font-weight: bold;
+  color: #3b3b3b;
+  font-size: 30px;
+  width: 280px;
+}
+.text {
+  color: #444444;
+  font-size: 12px;
+}
+
 .carousel {
-  height: 50%;
-  border: 1px rgb(189, 189, 189) solid;
+  height: 180px;
+  width: 350px;
+  background-color: rgb(231, 231, 231);
+  /* border: 1px solid; */
   color: rgb(189, 189, 189);
 }
 
 .started-button {
   padding: 20px;
-  width: 222px;
+  margin: 0 auto 0 auto;
+  width: 230px;
   color: white;
   background-color: #444444;
   border: 1px solid black;
