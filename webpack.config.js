@@ -3,7 +3,7 @@
 const { resolve } = require('path');
 
 module.exports = {
-  entry: ['babel-polyfill', './client/index.js'], // assumes your entry point is the index.js in the root of your project folder
+  entry: ['babel-polyfill', './src/index.js'], // assumes your entry point is the index.js in the root of your project folder
   mode: 'development',
   output: {
     path: __dirname, // assumes your bundle.js will also be in the root of your project folder
