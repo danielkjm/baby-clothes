@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 1rem;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -13,7 +17,9 @@
 .logo {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-size: 4em;
+  /* font-size: 3.7em; */
+  /* font-size: 30px; */
+  margin: 2rem;
   color: #444444;
 }
 
@@ -27,31 +33,31 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   height: 100%;
-  margin-top: 2.5rem;
+  /* margin-top: 2.5rem; */
 }
 
 .header {
   font-weight: 800;
   color: #3b3b3b;
-  /* font-size: 30px; */
-  font-size: 3.5em;
-  /* width: 280px; */
-  width: 47%;
+  font-size: 30px;
+  /* font-size: 3.5em; */
+  width: 280px;
+  /* width: 47%; */
   margin: 4rem 0 3rem 0;
 }
 
 .text {
   color: #444444;
-  /* font-size: 12px; */
-  font-size: 1.8em;
+  font-size: 12px;
+  /* font-size: 1.8em; */
   margin-bottom: 4rem;
 }
 
 .carousel-img {
-  /* height: 180px;
-  width: 350px; */
-  height: 20vh;
-  width: 80vw;
+  height: 180px;
+  width: 350px;
+  /* height: 24vh; */
+  /* width: 80vw; */
   background-color: rgb(231, 231, 231);
   color: rgb(189, 189, 189);
   margin-bottom: 3rem;
@@ -71,26 +77,28 @@
   border-bottom: none;
   -webkit-box-sizing: content-box;
   background-color: rgba(34, 34, 34, 0.3);
-  /* width: 5%; */
-  /* height: 1px; */
 
-  /* height: 10%; */
-  /* margin: 0 3rem; */
-  /* padding: 15px 0; */
+  height: 1px;
+  margin: 0 5px;
+  padding: 15px 0;
+  width: 30px;
 
-  width: 80px;
-  height: 2px;
+  /* width: 80px;
+  height: 3px;
 
   margin: 0 1rem;
 
-  padding: 3rem 0;
+  padding: 3rem 0; */
 }
 
 .started-button {
-  padding: 2.5rem 3rem 2.5rem 3rem;
+  /* padding: 2.5rem 3rem 2.5rem 3rem; */
+  padding: 20px;
   margin-top: 0;
-  width: 60%;
-  font-size: 2em;
+  width: 200px;
+  font-size: 20px;
+  /* width: 60%; */
+  /* font-size: 2em; */
   color: white;
   background-color: #444444;
   border: 1px solid black;
