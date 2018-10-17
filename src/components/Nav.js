@@ -9,10 +9,14 @@ class Nav extends Component {
 
   render() {
     return (
-      <div className="navbar">
+      <nav className="navbar">
         <div className="logo">LOCALS</div>
-        <div>hamburger</div>
-      </div>
+        <div className="hamburger">
+          <div className="lettuce" />
+          <div className="cheese" />
+          <div className="patty" />
+        </div>
+      </nav>
     );
   }
 }
