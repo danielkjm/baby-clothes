@@ -11,15 +11,13 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.44rem;
 }
 
 .logo {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  /* font-size: 3.7em; */
-  /* font-size: 30px; */
-  margin: 2rem;
+  font-size: 1.25em;
   color: #444444;
 }
 
@@ -54,8 +52,8 @@ body {
 }
 
 .carousel-img {
-  height: 180px;
-  width: 350px;
+  height: 188px;
+  width: 317px;
   /* height: 24vh; */
   /* width: 80vw; */
   background-color: rgb(231, 231, 231);
