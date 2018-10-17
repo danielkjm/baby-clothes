@@ -57,7 +57,7 @@ class Home extends Component {
             aliquip ex ea commodo consequat.
           </p>
           <button className="white-button">GET STARTED</button>
-          <div className="learnpMore">LEARN MORE</div>
+          <div className="learnMore">LEARN MORE</div>
         </div>
 
         <div />
