@@ -140,7 +140,6 @@ body {
   font-size: 0.75em;
   letter-spacing: 0.2em;
   color: #434343;
-
   background-color: white;
   margin-bottom: 4.5rem;
   border: 1px solid #434343;
@@ -197,4 +196,46 @@ body {
   height: 1.4px;
   width: 6rem;
   background-color: #8e8e8e;
+}
+
+/*-----------------------------*/
+
+.more-about {
+  display: flex;
+  flex-direction: column;
+  color: #434343;
+  font-size: 0.8em;
+  line-height: 1.17em;
+
+  margin: 1.55rem 0 1.2rem 0;
+
+  width: 100%;
+  font-weight: bold;
+}
+
+.more-about div {
+  border-bottom: 1px #8e8e8e solid;
+  margin: 1.55rem 0 1.2rem 0;
+}
+
+.more-about::before {
+  content: '';
+  position: absolute;
+  left: 4%;
+  bottom: -59%;
+  height: 1.4px;
+  width: 6rem;
+  background-color: #8e8e8e;
+}
+
+.footer-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foorter-links {
+  display: flex;
+  flex-direction: row;
 }

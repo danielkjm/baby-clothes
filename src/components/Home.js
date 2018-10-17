@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import Footer from './Footer';
 
 class Home extends Component {
   constructor() {
@@ -59,6 +60,14 @@ class Home extends Component {
           <button className="white-button">GET STARTED</button>
           <div className="learnMore">LEARN MORE</div>
         </div>
+
+        <div className="more-about">
+          <div>COMPANY</div>
+          <div>LOCATIONS</div>
+          <div>FOLLOW</div>
+        </div>
+
+        <Footer />
 
         <div />
       </div>
