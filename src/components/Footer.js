@@ -10,7 +10,10 @@ class Footer extends Component {
     return (
       <div className="footer">
         <div className="footer-body">
-          <div className="logo">LOCALS</div>
+          <div className="logo-container">
+            <div className="logo">LOCALS</div>
+            <div className="copyright">2019 Locals. All Rights Reserved.</div>
+          </div>
           <div className="footer-links">
             <div>Privacy</div>
             <div>Cookies</div>
