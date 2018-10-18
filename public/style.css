@@ -186,6 +186,7 @@ body {
   letter-spacing: 0.2em;
   position: relative;
   font-weight: 500;
+  margin-bottom: 4.3rem;
 }
 
 .learnMore::after {
@@ -201,31 +202,52 @@ body {
 /*-----------------------------*/
 
 .more-about {
+  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #434343;
   font-size: 0.8em;
   line-height: 1.17em;
-
   margin: 1.55rem 0 1.2rem 0;
-
   width: 100%;
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
-
-.more-about div {
-  border-bottom: 1px #8e8e8e solid;
-  margin: 1.55rem 0 1.2rem 0;
-}
-
 .more-about::before {
   content: '';
   position: absolute;
-  left: 4%;
-  bottom: -59%;
+  top: -11%;
   height: 1.4px;
-  width: 6rem;
-  background-color: #8e8e8e;
+  width: 100vw;
+  background-color: #e6e6e6;
+}
+
+.more-about div {
+  font-size: 0.875em;
+  letter-spacing: 0.2em;
+  color: #434343;
+  margin: 1.8rem 0 1.2rem 0;
+  width: 100%;
+  left: 3.5%;
+  position: relative;
+  font-weight: 700;
+}
+
+/* .more-about div::before {
+  content: '';
+
+} */
+
+.more-about div::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  bottom: -153%;
+  right: 7%;
+  width: 93%;
+  background-color: #e6e6e6;
 }
 
 .footer-body {
@@ -235,7 +257,8 @@ body {
   align-items: center;
 }
 
-.foorter-links {
+.footer-links {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }

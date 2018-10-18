@@ -62,9 +62,9 @@ class Home extends Component {
         </div>
 
         <div className="more-about">
-          <div>COMPANY</div>
-          <div>LOCATIONS</div>
-          <div>FOLLOW</div>
+          <div className="company-link">COMPANY</div>
+          <div className="locations-link">LOCATIONS</div>
+          <div className="follow-link">FOLLOW</div>
         </div>
 
         <Footer />
